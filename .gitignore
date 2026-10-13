@@ -1,0 +1,19 @@
+
+# Private database configuration
+/config/db.php
+/config/*credentials*
+/config/*secret*
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private testing and admin setup files
+/test_db.php
+/create_admin.php
